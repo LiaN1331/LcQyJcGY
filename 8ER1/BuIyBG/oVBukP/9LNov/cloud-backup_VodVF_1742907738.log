@@ -18,7 +18,6 @@ We have a `Makefile` provided some commands:
 
 ## Guide for adding a new storage
 
-- Add a new storage in `storages/` folder, you can follow the `storages/gcs.go` as an example.
   - If the storage is a AWS S3 compatible storage, you can use `storages/s3.go` as a base.
 - Add a new test file in `tests/` folder, you can follow the `tests/oss.yml` as an example.
   - Don't put your credentials in the test file, you can use environment variables to pass them.
