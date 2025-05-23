@@ -1,5 +1,4 @@
 .docker/
-bin/
 Dockerfile.*
 docker-compose.*
 docs/
