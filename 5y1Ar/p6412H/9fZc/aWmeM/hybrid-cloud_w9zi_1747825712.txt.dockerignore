@@ -1,6 +1,5 @@
 .docker/
 bin/
-Dockerfile
 Dockerfile.*
 docker-compose.*
 docs/
